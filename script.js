@@ -123,10 +123,12 @@ function endQuiz() {
                 score >= 5 ? "🙂 Bien" : "😅 À améliorer";
 
   document.querySelector(".quiz-container").innerHTML = `
-    <h2>Quiz terminé 🎉</h2>
-    <p>Score : ${score}/10</p>
-    <h3>${mention}</h3>
-    <button onclick="location.reload()">Rejouer 🔄</button>
+    <div class="end-quiz">
+      <h2>Quiz terminé 🎉</h2>
+      <p>Score : ${score}/10</p>
+      <h3>${mention}</h3>
+      <button onclick="location.reload()">Rejouer 🔄</button>
+    </div>
   `;
 }
 
