@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Quelle est la capitale de la RDC ?",
+    "choices": ["Goma", "Kinshasa", "Lubumbashi", "Kisangani"],
+    "answer": 1
+  },
+  {
+    "question": "Qui fut le premier président de la RDC ?",
+    "choices": ["Joseph KASSAVUBU", "Joseph MOBUTU", "Laurent Désiré KABILA", "Joseph KABILA"],
+    "answer": 0
+  },
+  {
+    "question": "Quel fleuve traverse Kinshasa ?",
+    "choices": ["Nil", "Congo", "Zambèze", "Niger"],
+    "answer": 1
+  },
+  {
+    "question": "Quel pays a été colonisé par la Belgique ?",
+    "choices": ["Rwanda", "RD-Congo", "Gabon", "Nigeria"],
+    "answer": 1
+  },
+  {
+    "question": "Quelle ville est surnommée la ville cuprifère ?",
+    "choices": ["Goma", "Kolwezi", "Bukavu", "Mbandaka"],
+    "answer": 1
+  },
+  {
+    "question": "Quel pays a remporté la CAN 2019 ?",
+    "choices": ["Sénégal", "Algérie", "Nigeria", "Maroc"],
+    "answer": 1
+  },
+  {
+    "question": "Le mont Stanley se situe dans quel pays ?",
+    "choices": ["Kenya", "Tanzanie", "RDC", "Ouganda"],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la plus grande forêt tropicale après l'Amazonie ?",
+    "choices": ["Forêt du Congo", "Forêt de Bornéo", "Forêt de Sumatra", "Forêt de Madagascar"],
+    "answer": 0
+  },
+  {
+    "question": "Quel est l’organe principal du système circulatoire ?",
+    "choices": ["Cœur", "Foie", "Poumons", "Reins"],
+    "answer": 0
+  },
+  {
+    "question": "Combien de continents y a-t-il sur Terre ?",
+    "choices": ["5", "6", "7", "8"],
+    "answer": 2
+  },
+  {
+    "question": "Le drapeau de la RDC a combien d’étoiles ?",
+    "choices": ["1", "2", "3", "4"],
+    "answer": 0
+  },
+  {
+    "question": "Quel animal est considéré comme le roi de la jungle ?",
+    "choices": ["Lion", "Tigre", "Éléphant", "Gorille"],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le fruit de l’arbre baobab ?",
+    "choices": ["Mangue", "Pain de singe", "Noix de coco", "Papaye"],
+    "answer": 1
+  },
+  {
+    "question": "Lequel de ces pays est enclavé en Afrique ?",
+    "choices": ["Congo", "Tanzanie", "Ghana", "Côte d'Ivoire"],
+    "answer": 0
+  },
+  {
+    "question": "Combien de joueurs y a-t-il dans une équipe de football ?",
+    "choices": ["9", "10", "11", "12"],
+    "answer": 2
+  },
+  {
+    "question": "Quel est l’organe qui filtre le sang dans le corps humain ?",
+    "choices": ["Cœur", "Reins", "Foie", "Poumons"],
+    "answer": 1
+  },
+  {
+    "question": "Quel pays est surnommé le pays des pharaons ?",
+    "choices": ["Égypte", "Soudan", "Libye", "Maroc"],
+    "answer": 0
+  },
+  {
+    "question": "Quelle religion est majoritaire en RDC ?",
+    "choices": ["Islam", "Catholicisme", "Hindouisme", "Bouddhisme"],
+    "answer": 1
+  },
+  {
+    "question": "Quel est l’animal le plus rapide du monde ?",
+    "choices": ["Guépard", "Lion", "Antilope", "Autruche"],
+    "answer": 0
+  },
+  {
+    "question": "Lequel de ces arbres est connu pour sa grande longévité ?",
+    "choices": ["Chêne", "Séquoia", "Bouleau", "Palmier"],
+    "answer": 1
+  }
+]
