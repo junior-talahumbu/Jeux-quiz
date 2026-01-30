@@ -1,107 +1,200 @@
 [
   {
-    "question": "Quelle est la capitale de la RDC ?",
-    "choices": ["Goma", "Kinshasa", "Lubumbashi", "Kisangani"],
+    "question": "En quelle année la RDC a-t-elle adopté sa Constitution actuellement en vigueur ?",
+    "choices": ["2003", "2006", "2011", "2018"],
     "answer": 1
   },
   {
-    "question": "Qui fut le premier président de la RDC ?",
-    "choices": ["Joseph KASSAVUBU", "Joseph MOBUTU", "Laurent Désiré KABILA", "Joseph KABILA"],
+    "question": "Quel article de la Constitution congolaise consacre le principe de l’alternance démocratique ?",
+    "choices": ["Article 5", "Article 70", "Article 73", "Article 220"],
+    "answer": 3
+  },
+  {
+    "question": "Quel est le nom officiel de la RDC entre 1971 et 1997 ?",
+    "choices": ["Zaïre", "Congo-Léo", "Congo belge", "République du Congo"],
     "answer": 0
   },
   {
-    "question": "Quel fleuve traverse Kinshasa ?",
-    "choices": ["Nil", "Congo", "Zambèze", "Niger"],
-    "answer": 1
-  },
-  {
-    "question": "Quel pays a été colonisé par la Belgique ?",
-    "choices": ["Rwanda", "RD-Congo", "Gabon", "Nigeria"],
-    "answer": 1
-  },
-  {
-    "question": "Quelle ville est surnommée la ville cuprifère ?",
-    "choices": ["Goma", "Kolwezi", "Bukavu", "Mbandaka"],
-    "answer": 1
-  },
-  {
-    "question": "Quel pays a remporté la CAN 2019 ?",
-    "choices": ["Sénégal", "Algérie", "Nigeria", "Maroc"],
-    "answer": 1
-  },
-  {
-    "question": "Le mont Stanley se situe dans quel pays ?",
-    "choices": ["Kenya", "Tanzanie", "RDC", "Ouganda"],
+    "question": "Quel fleuve est le deuxième plus long d’Afrique ?",
+    "choices": ["Nil", "Niger", "Congo", "Zambèze"],
     "answer": 2
   },
   {
-    "question": "Quelle est la plus grande forêt tropicale après l'Amazonie ?",
-    "choices": ["Forêt du Congo", "Forêt de Bornéo", "Forêt de Sumatra", "Forêt de Madagascar"],
+    "question": "Quelle institution est chargée de proclamer les résultats définitifs des élections en RDC ?",
+    "choices": ["CENI", "Cour constitutionnelle", "Sénat", "Assemblée nationale"],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le président de la RDC lors de la transition 2003–2006 ?",
+    "choices": ["Joseph Kabila", "Laurent Désiré Kabila", "Mobutu", "Étienne Tshisekedi"],
     "answer": 0
   },
   {
-    "question": "Quel est l’organe principal du système circulatoire ?",
-    "choices": ["Cœur", "Foie", "Poumons", "Reins"],
+    "question": "Quel est le principal minerai exploité dans le Katanga ?",
+    "choices": ["Or", "Cuivre", "Fer", "Diamant"],
+    "answer": 1
+  },
+  {
+    "question": "Quelle ville est le siège de la Cour constitutionnelle de la RDC ?",
+    "choices": ["Lubumbashi", "Goma", "Kinshasa", "Kisangani"],
+    "answer": 2
+  },
+  {
+    "question": "Quel pays partage la plus longue frontière avec la RDC ?",
+    "choices": ["Angola", "Ouganda", "Zambie", "Congo-Brazzaville"],
     "answer": 0
   },
   {
-    "question": "Combien de continents y a-t-il sur Terre ?",
+    "question": "Quel accord a officiellement mis fin à la deuxième guerre du Congo ?",
+    "choices": ["Accord de Lusaka", "Accord de Sun City", "Accord de Pretoria", "Accord de Nairobi"],
+    "answer": 2
+  },
+
+  {
+    "question": "Quelle organisation gère la politique monétaire en RDC ?",
+    "choices": ["Ministère des Finances", "Banque mondiale", "Banque centrale du Congo", "FMI"],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la monnaie officielle de la RDC ?",
+    "choices": ["Franc CFA", "Franc congolais", "Dollar", "Shilling"],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la langue officielle de la RDC ?",
+    "choices": ["Lingala", "Swahili", "Français", "Kikongo"],
+    "answer": 2
+  },
+  {
+    "question": "Quel lac africain est le plus profond ?",
+    "choices": ["Victoria", "Tanganyika", "Kivu", "Albert"],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le rôle principal du Parlement ?",
+    "choices": ["Juger", "Légiférer", "Exécuter", "Contrôler les frontières"],
+    "answer": 1
+  },
+  {
+    "question": "Quel président congolais a été assassiné en 2001 ?",
+    "choices": ["Mobutu", "Joseph Kabila", "Laurent Désiré Kabila", "Kassavubu"],
+    "answer": 2
+  },
+  {
+    "question": "Quel traité a créé l’Union africaine ?",
+    "choices": ["Traité de Lagos", "Acte constitutif de Lomé", "Charte d’Addis-Abeba", "Traité d’Abuja"],
+    "answer": 1
+  },
+  {
+    "question": "Quel organe contrôle la constitutionnalité des lois en RDC ?",
+    "choices": ["CENI", "Conseil d’État", "Cour constitutionnelle", "Sénat"],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le plus grand parc national de la RDC ?",
+    "choices": ["Virunga", "Salonga", "Garamba", "Upemba"],
+    "answer": 1
+  },
+  {
+    "question": "Quel scientifique est à l’origine de la théorie de la relativité ?",
+    "choices": ["Newton", "Einstein", "Galilée", "Tesla"],
+    "answer": 1
+  },
+
+  {
+    "question": "Combien de provinces compte la RDC depuis le découpage de 2015 ?",
+    "choices": ["11", "22", "26", "30"],
+    "answer": 2
+  },
+  {
+    "question": "Quel est l’organe exécutif suprême de l’État ?",
+    "choices": ["Parlement", "Cour constitutionnelle", "Gouvernement", "Sénat"],
+    "answer": 2
+  },
+  {
+    "question": "Quel pays africain n’a jamais été colonisé ?",
+    "choices": ["Éthiopie", "Libéria", "Égypte", "Lesotho"],
+    "answer": 0
+  },
+  {
+    "question": "Quelle est la durée du mandat présidentiel en RDC ?",
+    "choices": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "answer": 1
+  },
+  {
+    "question": "Quel organe organise les élections en RDC ?",
+    "choices": ["Cour constitutionnelle", "Parlement", "CENI", "Ministère de l’Intérieur"],
+    "answer": 2
+  },
+  {
+    "question": "Quel est l’océan qui borde l’Afrique à l’ouest ?",
+    "choices": ["Pacifique", "Indien", "Atlantique", "Arctique"],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la principale source d’énergie électrique en RDC ?",
+    "choices": ["Solaire", "Nucléaire", "Hydroélectrique", "Thermique"],
+    "answer": 2
+  },
+  {
+    "question": "Quel barrage est l’un des plus puissants d’Afrique ?",
+    "choices": ["Inga", "Assouan", "Kariba", "Akosombo"],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le rôle principal du Sénat ?",
+    "choices": ["Exécuter les lois", "Contrôler le gouvernement", "Représenter les provinces", "Juger"],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "choices": ["Kalahari", "Gobi", "Sahara", "Atacama"],
+    "answer": 2
+  },
+
+  {
+    "question": "Combien de minutes dure un match de football officiel ?",
+    "choices": ["80", "90", "100", "120"],
+    "answer": 1
+  },
+  {
+    "question": "Quel organe du corps humain produit l’insuline ?",
+    "choices": ["Foie", "Pancréas", "Reins", "Estomac"],
+    "answer": 1
+  },
+  {
+    "question": "Quel continent est le plus peuplé ?",
+    "choices": ["Afrique", "Europe", "Asie", "Amérique"],
+    "answer": 2
+  },
+  {
+    "question": "Quel métal est liquide à température ambiante ?",
+    "choices": ["Plomb", "Mercure", "Aluminium", "Zinc"],
+    "answer": 1
+  },
+  {
+    "question": "Quel est l’organe chargé de la respiration ?",
+    "choices": ["Cœur", "Poumons", "Reins", "Foie"],
+    "answer": 1
+  },
+  {
+    "question": "Quelle planète est surnommée la planète rouge ?",
+    "choices": ["Mars", "Vénus", "Jupiter", "Saturne"],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le symbole chimique de l’or ?",
+    "choices": ["Ag", "Au", "Fe", "Cu"],
+    "answer": 1
+  },
+  {
+    "question": "Combien de continents compte la Terre ?",
     "choices": ["5", "6", "7", "8"],
     "answer": 2
   },
   {
-    "question": "Le drapeau de la RDC a combien d’étoiles ?",
-    "choices": ["1", "2", "3", "4"],
-    "answer": 0
-  },
-  {
-    "question": "Quel animal est considéré comme le roi de la jungle ?",
-    "choices": ["Lion", "Tigre", "Éléphant", "Gorille"],
-    "answer": 0
-  },
-  {
-    "question": "Quel est le fruit de l’arbre baobab ?",
-    "choices": ["Mangue", "Pain de singe", "Noix de coco", "Papaye"],
+    "question": "Quel pays a remporté la Coupe du monde 2018 ?",
+    "choices": ["Brésil", "France", "Croatie", "Allemagne"],
     "answer": 1
-  },
-  {
-    "question": "Lequel de ces pays est enclavé en Afrique ?",
-    "choices": ["Congo", "Tanzanie", "Ghana", "Côte d'Ivoire"],
-    "answer": 0
-  },
-  {
-    "question": "Combien de joueurs y a-t-il dans une équipe de football ?",
-    "choices": ["9", "10", "11", "12"],
-    "answer": 2
-  },
-  {
-    "question": "Quel est l’organe qui filtre le sang dans le corps humain ?",
-    "choices": ["Cœur", "Reins", "Foie", "Poumons"],
-    "answer": 1
-  },
-  {
-    "question": "Quel pays est surnommé le pays des pharaons ?",
-    "choices": ["Égypte", "Soudan", "Libye", "Maroc"],
-    "answer": 0
-  },
-  {
-    "question": "Quelle religion est majoritaire en RDC ?",
-    "choices": ["Islam", "Catholicisme", "Hindouisme", "Bouddhisme"],
-    "answer": 1
-  },
-  {
-    "question": "Quel est l’animal le plus rapide du monde ?",
-    "choices": ["Guépard", "Lion", "Antilope", "Autruche"],
-    "answer": 0
-  },
-  {
-    "question": "Lequel de ces arbres est connu pour sa grande longévité ?",
-    "choices": ["Chêne", "Séquoia", "Bouleau", "Palmier"],
-    "answer": 1
-  },
-  {
-   "question": "En Qeulle année la RDC avait eu son Indépendance ?",
-    "choices": ["1960", "1954", "1966", "1961"],
-    "answer": 0
   }
 ]
