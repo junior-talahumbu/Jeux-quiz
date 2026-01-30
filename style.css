@@ -191,7 +191,6 @@ body {
   box-shadow: 0 12px 20px rgba(0,0,0,0.4);
 }
 
-/* BADGE FIN DE QUIZ */
 .end-quiz .badge {
   font-size: 60px;
   display: block;
@@ -199,10 +198,11 @@ body {
   animation: bounce 1s ease infinite alternate;
 }
 
-.end-quiz .excellent { color: #22c55e; }    /* Vert */
-.end-quiz .tresbien { color: #4ade80; }     /* Vert clair */
-.end-quiz .bien { color: #facc15; }        /* Jaune */
-.end-quiz .ameliorer { color: #ef4444; }   /* Rouge */
+.end-quiz .badge.excellent { color: #22c55e; }   /* vert foncé */
+.end-quiz .badge.tresbien { color: #4ade80; }    /* vert clair */
+.end-quiz .badge.bien { color: #facc15; }        /* jaune */
+.end-quiz .badge.ameliorer { color: #ef4444; }   /* rouge */
+
 
 /* ANIMATION BOUNCE */
 @keyframes bounce {
