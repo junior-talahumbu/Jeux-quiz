@@ -106,7 +106,7 @@ function startTimer() {
     timeLeft--;
     document.getElementById("timer").textContent = `⏱️ ${timeLeft}`;
     if (timeLeft === 0) next();
-  }, 1000);
+  }, 15000);
 }
 
 function resetTimer() { clearInterval(timer); }
