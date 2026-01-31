@@ -1,200 +1,268 @@
 [
   {
-    "question": "En quelle année la RDC a-t-elle adopté sa Constitution actuellement en vigueur ?",
-    "choices": ["2003", "2006", "2011", "2018"],
+    "domain": "Droit constitutionnel (RDC)",
+    "question": "Quel article de la Constitution congolaise verrouille la limitation des mandats présidentiels ?",
+    "choices": ["Article 70", "Article 73", "Article 220", "Article 5"],
+    "answer": 2
+  },
+  {
+    "domain": "Droit constitutionnel (RDC)",
+    "question": "Quel organe peut interpréter officiellement la Constitution en RDC ?",
+    "choices": ["Le Parlement", "La Cour constitutionnelle", "Le Conseil d'État", "Le Président"],
     "answer": 1
   },
   {
-    "question": "Quel article de la Constitution congolaise consacre le principe de l’alternance démocratique ?",
-    "choices": ["Article 5", "Article 70", "Article 73", "Article 220"],
+    "domain": "Droit constitutionnel (RDC)",
+    "question": "La souveraineté nationale appartient :",
+    "choices": ["Au Président", "Au Parlement", "Au peuple", "À l’État"],
+    "answer": 2
+  },
+  {
+    "domain": "Droit constitutionnel (RDC)",
+    "question": "Quel pouvoir n’est PAS reconnu par la Constitution congolaise ?",
+    "choices": ["Exécutif", "Législatif", "Judiciaire", "Administratif"],
     "answer": 3
   },
   {
-    "question": "Quel est le nom officiel de la RDC entre 1971 et 1997 ?",
-    "choices": ["Zaïre", "Congo-Léo", "Congo belge", "République du Congo"],
-    "answer": 0
-  },
-  {
-    "question": "Quel fleuve est le deuxième plus long d’Afrique ?",
-    "choices": ["Nil", "Niger", "Congo", "Zambèze"],
-    "answer": 2
-  },
-  {
-    "question": "Quelle institution est chargée de proclamer les résultats définitifs des élections en RDC ?",
-    "choices": ["CENI", "Cour constitutionnelle", "Sénat", "Assemblée nationale"],
+    "domain": "Droit constitutionnel (RDC)",
+    "question": "Quel mandat est renouvelable une seule fois en RDC ?",
+    "choices": ["Sénateur", "Président", "Gouverneur", "Député"],
     "answer": 1
   },
   {
-    "question": "Qui était le président de la RDC lors de la transition 2003–2006 ?",
-    "choices": ["Joseph Kabila", "Laurent Désiré Kabila", "Mobutu", "Étienne Tshisekedi"],
-    "answer": 0
-  },
-  {
-    "question": "Quel est le principal minerai exploité dans le Katanga ?",
-    "choices": ["Or", "Cuivre", "Fer", "Diamant"],
-    "answer": 1
-  },
-  {
-    "question": "Quelle ville est le siège de la Cour constitutionnelle de la RDC ?",
-    "choices": ["Lubumbashi", "Goma", "Kinshasa", "Kisangani"],
-    "answer": 2
-  },
-  {
-    "question": "Quel pays partage la plus longue frontière avec la RDC ?",
-    "choices": ["Angola", "Ouganda", "Zambie", "Congo-Brazzaville"],
-    "answer": 0
-  },
-  {
-    "question": "Quel accord a officiellement mis fin à la deuxième guerre du Congo ?",
-    "choices": ["Accord de Lusaka", "Accord de Sun City", "Accord de Pretoria", "Accord de Nairobi"],
-    "answer": 2
-  },
-
-  {
-    "question": "Quelle organisation gère la politique monétaire en RDC ?",
-    "choices": ["Ministère des Finances", "Banque mondiale", "Banque centrale du Congo", "FMI"],
-    "answer": 2
-  },
-  {
-    "question": "Quelle est la monnaie officielle de la RDC ?",
-    "choices": ["Franc CFA", "Franc congolais", "Dollar", "Shilling"],
-    "answer": 1
-  },
-  {
-    "question": "Quelle est la langue officielle de la RDC ?",
-    "choices": ["Lingala", "Swahili", "Français", "Kikongo"],
-    "answer": 2
-  },
-  {
-    "question": "Quel lac africain est le plus profond ?",
-    "choices": ["Victoria", "Tanganyika", "Kivu", "Albert"],
-    "answer": 1
-  },
-  {
-    "question": "Quel est le rôle principal du Parlement ?",
-    "choices": ["Juger", "Légiférer", "Exécuter", "Contrôler les frontières"],
-    "answer": 1
-  },
-  {
-    "question": "Quel président congolais a été assassiné en 2001 ?",
-    "choices": ["Mobutu", "Joseph Kabila", "Laurent Désiré Kabila", "Kassavubu"],
-    "answer": 2
-  },
-  {
-    "question": "Quel traité a créé l’Union africaine ?",
-    "choices": ["Traité de Lagos", "Acte constitutif de Lomé", "Charte d’Addis-Abeba", "Traité d’Abuja"],
-    "answer": 1
-  },
-  {
-    "question": "Quel organe contrôle la constitutionnalité des lois en RDC ?",
-    "choices": ["CENI", "Conseil d’État", "Cour constitutionnelle", "Sénat"],
-    "answer": 2
-  },
-  {
-    "question": "Quel est le plus grand parc national de la RDC ?",
-    "choices": ["Virunga", "Salonga", "Garamba", "Upemba"],
-    "answer": 1
-  },
-  {
-    "question": "Quel scientifique est à l’origine de la théorie de la relativité ?",
-    "choices": ["Newton", "Einstein", "Galilée", "Tesla"],
+    "domain": "Droit constitutionnel (RDC)",
+    "question": "Quel texte a servi de base juridique à la transition 2003–2006 ?",
+    "choices": ["Constitution de 2006", "Acte constitutionnel de transition", "Accord de Lusaka", "Charte de l’UA"],
     "answer": 1
   },
 
   {
-    "question": "Combien de provinces compte la RDC depuis le découpage de 2015 ?",
-    "choices": ["11", "22", "26", "30"],
-    "answer": 2
-  },
-  {
-    "question": "Quel est l’organe exécutif suprême de l’État ?",
-    "choices": ["Parlement", "Cour constitutionnelle", "Gouvernement", "Sénat"],
-    "answer": 2
-  },
-  {
-    "question": "Quel pays africain n’a jamais été colonisé ?",
-    "choices": ["Éthiopie", "Libéria", "Égypte", "Lesotho"],
-    "answer": 0
-  },
-  {
-    "question": "Quelle est la durée du mandat présidentiel en RDC ?",
-    "choices": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "domain": "Géopolitique africaine",
+    "question": "Quel pays africain est membre à la fois de la SADC et de la CEEAC ?",
+    "choices": ["Angola", "RDC", "Zambie", "Mozambique"],
     "answer": 1
   },
   {
-    "question": "Quel organe organise les élections en RDC ?",
-    "choices": ["Cour constitutionnelle", "Parlement", "CENI", "Ministère de l’Intérieur"],
+    "domain": "Géopolitique",
+    "question": "La RDC est membre de toutes ces organisations SAUF :",
+    "choices": ["UA", "CEEAC", "SADC", "CEDEAO"],
+    "answer": 3
+  },
+  {
+    "domain": "Géopolitique",
+    "question": "Quel pays est le principal partenaire minier de la RDC ?",
+    "choices": ["France", "Chine", "États-Unis", "Belgique"],
+    "answer": 1
+  },
+  {
+    "domain": "Politique africaine",
+    "question": "Quel pays abrite le siège de l’Union africaine ?",
+    "choices": ["Kenya", "Nigeria", "Afrique du Sud", "Éthiopie"],
+    "answer": 3
+  },
+  {
+    "domain": "Économie internationale",
+    "question": "Quel organisme fixe les règles du commerce mondial ?",
+    "choices": ["FMI", "OMC", "Banque mondiale", "OCDE"],
+    "answer": 1
+  },
+  {
+    "domain": "Géopolitique",
+    "question": "Quel pays africain a quitté la CPI en 2017 ?",
+    "choices": ["Afrique du Sud", "Burundi", "RDC", "Kenya"],
+    "answer": 1
+  },
+
+  {
+    "domain": "Histoire (RDC)",
+    "question": "Quel accord a conduit à la mise en place du gouvernement de transition 1+4 en RDC ?",
+    "choices": ["Lusaka", "Pretoria", "Sun City", "Nairobi"],
     "answer": 2
   },
   {
-    "question": "Quel est l’océan qui borde l’Afrique à l’ouest ?",
-    "choices": ["Pacifique", "Indien", "Atlantique", "Arctique"],
-    "answer": 2
+    "domain": "Histoire (RDC)",
+    "question": "En quelle année le Congo devient-il officiellement indépendant ?",
+    "choices": ["1958", "1960", "1963", "1965"],
+    "answer": 1
   },
   {
-    "question": "Quelle est la principale source d’énergie électrique en RDC ?",
-    "choices": ["Solaire", "Nucléaire", "Hydroélectrique", "Thermique"],
-    "answer": 2
-  },
-  {
-    "question": "Quel barrage est l’un des plus puissants d’Afrique ?",
-    "choices": ["Inga", "Assouan", "Kariba", "Akosombo"],
+    "domain": "Histoire africaine",
+    "question": "Quel leader africain est à l’origine du panafricanisme moderne ?",
+    "choices": ["Nkrumah", "Mandela", "Lumumba", "Sankara"],
     "answer": 0
   },
   {
-    "question": "Quel est le rôle principal du Sénat ?",
-    "choices": ["Exécuter les lois", "Contrôler le gouvernement", "Représenter les provinces", "Juger"],
+    "domain": "Histoire (RDC)",
+    "question": "Qui fut le premier président de la RDC après l’indépendance ?",
+    "choices": ["Lumumba", "Kasa-Vubu", "Mobutu", "Tshombe"],
+    "answer": 1
+  },
+  {
+    "domain": "Histoire mondiale",
+    "question": "La Conférence de Berlin (1884–1885) concernait principalement :",
+    "choices": ["La fin de l’esclavage", "Le partage de l’Afrique", "L’indépendance des colonies", "La création de l’ONU"],
+    "answer": 1
+  },
+  {
+    "domain": "Histoire africaine",
+    "question": "Quel pays africain fut fondé par d’anciens esclaves affranchis ?",
+    "choices": ["Sierra Leone", "Ghana", "Libéria", "Nigéria"],
     "answer": 2
   },
   {
-    "question": "Quel est le plus grand désert chaud du monde ?",
-    "choices": ["Kalahari", "Gobi", "Sahara", "Atacama"],
+    "domain": "Histoire mondiale",
+    "question": "En quelle année est tombé le mur de Berlin ?",
+    "choices": ["1987", "1989", "1991", "1993"],
+    "answer": 1
+  },
+
+  {
+    "domain": "Géographie",
+    "question": "Quel pays africain possède le plus grand nombre de pays frontaliers ?",
+    "choices": ["RDC", "Nigeria", "Éthiopie", "Soudan"],
+    "answer": 0
+  },
+  {
+    "domain": "Géographie",
+    "question": "Quel lac africain contient le plus grand volume d’eau douce ?",
+    "choices": ["Victoria", "Tanganyika", "Malawi", "Kivu"],
+    "answer": 1
+  },
+  {
+    "domain": "Géographie",
+    "question": "Le fleuve Congo se jette dans :",
+    "choices": ["Océan Indien", "Océan Atlantique", "Mer Rouge", "Golfe de Guinée"],
+    "answer": 1
+  },
+  {
+    "domain": "Géographie",
+    "question": "Quel pays africain possède la façade maritime la plus courte ?",
+    "choices": ["RDC", "Gambie", "Togo", "Djibouti"],
+    "answer": 0
+  },
+  {
+    "domain": "Géographie",
+    "question": "Quel est le plus grand océan du monde ?",
+    "choices": ["Atlantique", "Indien", "Pacifique", "Arctique"],
     "answer": 2
   },
 
   {
-    "question": "Combien de minutes dure un match de football officiel ?",
-    "choices": ["80", "90", "100", "120"],
+    "domain": "Économie",
+    "question": "Quel indicateur mesure la richesse produite à l’intérieur d’un pays sur une période donnée ?",
+    "choices": ["IDH", "PIB", "PNB", "Inflation"],
     "answer": 1
   },
   {
-    "question": "Quel organe du corps humain produit l’insuline ?",
-    "choices": ["Foie", "Pancréas", "Reins", "Estomac"],
-    "answer": 1
-  },
-  {
-    "question": "Quel continent est le plus peuplé ?",
-    "choices": ["Afrique", "Europe", "Asie", "Amérique"],
+    "domain": "Économie",
+    "question": "Une inflation élevée entraîne généralement :",
+    "choices": ["Hausse du pouvoir d’achat", "Baisse du coût de la vie", "Perte du pouvoir d’achat", "Stabilité monétaire"],
     "answer": 2
   },
   {
-    "question": "Quel métal est liquide à température ambiante ?",
-    "choices": ["Plomb", "Mercure", "Aluminium", "Zinc"],
+    "domain": "Économie",
+    "question": "Quel secteur domine l’économie congolaise ?",
+    "choices": ["Agriculture", "Industrie", "Services", "Mines"],
+    "answer": 3
+  },
+  {
+    "domain": "Économie",
+    "question": "Le taux de change exprime :",
+    "choices": ["La dette publique", "La valeur d’une monnaie", "L’inflation", "La croissance"],
+    "answer": 1
+  },
+
+  {
+    "domain": "Mathématiques",
+    "question": "Si x + 3 = 11, quelle est la valeur de x ?",
+    "choices": ["6", "7", "8", "9"],
+    "answer": 2
+  },
+  {
+    "domain": "Mathématiques",
+    "question": "Quel est le prochain nombre : 2 – 4 – 8 – 16 – ?",
+    "choices": ["18", "24", "30", "32"],
+    "answer": 3
+  },
+  {
+    "domain": "Mathématiques",
+    "question": "Combien de degrés mesure la somme des angles d’un triangle ?",
+    "choices": ["90°", "180°", "270°", "360°"],
     "answer": 1
   },
   {
-    "question": "Quel est l’organe chargé de la respiration ?",
-    "choices": ["Cœur", "Poumons", "Reins", "Foie"],
+    "domain": "Mathématiques",
+    "question": "Quel est le carré de 9 ?",
+    "choices": ["18", "27", "81", "72"],
+    "answer": 2
+  },
+  {
+    "domain": "Mathématiques",
+    "question": "25 × 4 − 20 = ?",
+    "choices": ["60", "80", "100", "120"],
     "answer": 1
   },
   {
-    "question": "Quelle planète est surnommée la planète rouge ?",
-    "choices": ["Mars", "Vénus", "Jupiter", "Saturne"],
-    "answer": 0
+    "domain": "Mathématiques",
+    "question": "9² − 3² = ?",
+    "choices": ["72", "54", "60", "45"],
+    "answer": 1
   },
+
   {
-    "question": "Quel est le symbole chimique de l’or ?",
-    "choices": ["Ag", "Au", "Fe", "Cu"],
+    "domain": "Sciences (Physique)",
+    "question": "Quelle grandeur s’exprime en newtons ?",
+    "choices": ["Énergie", "Force", "Puissance", "Pression"],
     "answer": 1
   },
   {
-    "question": "Combien de continents compte la Terre ?",
+    "domain": "Sciences (Biologie)",
+    "question": "Quel organe régule principalement la glycémie ?",
+    "choices": ["Foie", "Pancréas", "Reins", "Rate"],
+    "answer": 1
+  },
+  {
+    "domain": "Sciences (Chimie)",
+    "question": "Quel est le pH de l’eau pure ?",
     "choices": ["5", "6", "7", "8"],
     "answer": 2
   },
+
   {
-    "question": "Quel pays a remporté la Coupe du monde 2018 ?",
-    "choices": ["Brésil", "France", "Croatie", "Allemagne"],
+    "domain": "Français",
+    "question": "La phrase « Ils se sont rendu compte » est-elle correcte ?",
+    "choices": ["Oui", "Non"],
+    "answer": 0
+  },
+  {
+    "domain": "Français",
+    "question": "Que signifie le mot « ubiquité » ?",
+    "choices": ["Présence en plusieurs lieux à la fois", "Capacité à commander", "Pouvoir politique", "Grande richesse"],
+    "answer": 0
+  },
+  {
+    "domain": "Français",
+    "question": "Lequel de ces mots est correctement orthographié ?",
+    "choices": ["Acquérir", "Aquierir", "Aquérir", "Aquerir"],
+    "answer": 0
+  },
+  {
+    "domain": "Français",
+    "question": "La phrase est-elle correcte : « Malgré qu’il pleuve » ?",
+    "choices": ["Oui", "Non"],
     "answer": 1
+  },
+
+  {
+    "domain": "Logique",
+    "question": "Si tous les A sont B et que tous les B sont C, alors :",
+    "choices": ["Tous les C sont A", "Tous les A sont C", "Aucun A n’est C", "Impossible à déterminer"],
+    "answer": 1
+  },
+  {
+    "domain": "Logique",
+    "question": "Si aujourd’hui est lundi, quel jour sera-t-il dans 17 jours ?",
+    "choices": ["Mardi", "Mercredi", "Jeudi", "Vendredi"],
+    "answer": 2
   }
 ]
