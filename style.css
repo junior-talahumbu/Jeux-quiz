@@ -18,8 +18,14 @@ body {
 
 /* LOADER */
 #loader {
-  text-align: center;
-  animation: fadeIn 1s ease-in-out;
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  z-index: 1000;
 }
 
 .loader-icon {
@@ -49,7 +55,9 @@ body {
 }
 
 .hidden {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
 }
 
 /* TOP BAR */
