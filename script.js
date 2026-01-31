@@ -105,9 +105,13 @@ function startTimer() {
   timer = setInterval(() => {
     timeLeft--;
     document.getElementById("timer").textContent = `⏱️ ${timeLeft}`;
-    if (timeLeft === 0) next();
-  }, 1000);
+   if (timeLeft === 0) {
+  clearInterval(timer);
+  next();
+}, 1000);
 }
+
+
 
 function resetTimer() { clearInterval(timer); }
 
@@ -156,9 +160,6 @@ function shuffle(arr) {
 }
 
 // PWA
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js");
-}
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js").then(registration => {
