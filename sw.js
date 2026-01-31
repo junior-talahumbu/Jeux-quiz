@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-cache-v6"; // 🔴 changer à chaque MAJ
+const CACHE_NAME = "quiz-cache-v7"; // 🔴 changer à chaque MAJ
 
 const ASSETS = [
   "./",
