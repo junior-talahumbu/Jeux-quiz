@@ -202,3 +202,18 @@ fetch("version.json")
     document.getElementById("app-version").textContent =
       "Version v" + data.version;
   });
+
+fetch("changelog.json")
+  .then(res => res.json())
+  .then(logs => {
+    fetch("version.json")
+      .then(r => r.json())
+      .then(v => {
+        const changes = logs[v.version] || [];
+        document.getElementById("changelog").innerHTML =
+          "<h3>Nouveautés</h3><ul>" +
+          changes.map(c => `<li>${c}</li>`).join("") +
+          "</ul>";
+      });
+  });
+
