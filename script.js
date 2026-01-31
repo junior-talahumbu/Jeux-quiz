@@ -117,7 +117,7 @@ function resetTimer() { clearInterval(timer); }
 
 function updateProgress() {
   document.getElementById("progress-bar").style.width =
-    (index / questions.length) * 100 + "%";
+    (index + 1) / questions.length * 100 + "%";
 }
 
 function endQuiz() {
