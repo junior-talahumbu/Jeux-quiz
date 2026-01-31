@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-cache-v5"; // 🔴 changer à chaque MAJ
+const CACHE_NAME = "quiz-cache-v3"; // 🔴 changer à chaque MAJ
 
 const ASSETS = [
   "./",
@@ -8,6 +8,13 @@ const ASSETS = [
   "./questions.json",
   "./manifest.json"
 ];
+
+self.addEventListener("message", event => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
+});
+
 
 self.addEventListener("install", event => {
   self.skipWaiting(); // 🔥 prêt immédiatement
@@ -38,3 +45,5 @@ self.addEventListener("fetch", event => {
       .catch(() => caches.match(event.request))
   );
 });
+
+
