@@ -3,7 +3,7 @@ let questions = [];
 let index = 0;
 let score = 0;
 let timer;
-let timeLeft = 15;
+let timeLeft = 12;
 
 const soundCorrect = new Audio("sounds/correct.mp3");
 const soundWrong = new Audio("sounds/wrong.mp3");
@@ -100,7 +100,7 @@ function next() {
 }
 
 function startTimer() {
-  timeLeft = 15;
+  timeLeft = 12;
   document.getElementById("timer").textContent = `⏱️ ${timeLeft}`;
   timer = setInterval(() => {
     timeLeft--;
