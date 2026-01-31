@@ -195,3 +195,10 @@ function showUpdatePopup(registration) {
 navigator.serviceWorker.addEventListener("controllerchange", () => {
   window.location.reload();
 });
+
+fetch("version.json")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("app-version").textContent =
+      "Version v" + data.version;
+  });
