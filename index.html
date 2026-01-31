@@ -8,64 +8,69 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#22c55e" />
-  
-<script src="script.js"></script>
-
-  <!-- Icône -->
   <link rel="icon" href="icons/screenshot.png">
+
 </head>
 <body>
 
-<!-- 🔄 LOADER -->
-<div id="loader">
-  <img src="screenshot.png" alt="Quiz Icon" class="loader-icon">
-  <h2>Quiz Game</h2>
-  <p>Chargement...</p>
-</div>
-<section id="changelog"></section>
-<button onclick="setLang('fr')">FR</button>
-<button onclick="setLang('en')">EN</button>
-
-<h1 data-i18n="title"></h1>
-<button data-i18n="play"></button>
-
-<!-- 🎮 QUIZ -->
-<div class="quiz-container hidden">
-  <div class="top">
-    <span id="timer">⏱️ 10</span>
-    <h2 class="title">Quiz Game</h2>
-    <span id="score">Score : 0</span>
+  <!-- 🔄 LOADER -->
+  <div id="loader">
+    <img src="screenshot.png" alt="Quiz Icon" class="loader-icon">
+    <h2>Quiz Game</h2>
+    <p>Chargement...</p>
   </div>
 
-  <h3 id="question">Chargement...</h3>
-  <div id="choices"></div>
+  <!-- 🌍 HEADER -->
+  <header class="app-header hidden">
+    <div class="lang-switch">
+      <button onclick="setLang('fr')">FR</button>
+      <button onclick="setLang('en')">EN</button>
+    </div>
+  </header>
 
-  <div class="progress">
-    <div id="progress-bar"></div>
+  <!-- 🎮 MAIN -->
+  <main class="quiz-container hidden">
+
+    <section id="changelog"></section>
+
+    <div class="top">
+      <span id="timer">⏱️ 10</span>
+      <h2 class="title" data-i18n="title">Quiz Game</h2>
+      <span id="score">Score : 0</span>
+    </div>
+
+    <h3 id="question">Chargement...</h3>
+    <div id="choices"></div>
+
+    <div class="progress">
+      <div id="progress-bar"></div>
+    </div>
+
+  </main>
+
+  <!-- 🔔 UPDATE -->
+  <div id="update-popup" class="update-popup hidden">
+    <p>🔔 Une nouvelle version est disponible</p>
+    <button id="update-btn">🔄 Mettre à jour</button>
   </div>
-</div>
 
+  <!-- 🧾 FOOTER -->
+  <footer class="app-footer">
+    <small id="app-version"></small>
+  </footer>
 
-<script>
+  <!-- JS À LA FIN -->
+  <script src="script.js"></script>
 
-  window.addEventListener("load", () => {
-    setTimeout(() => {
-      document.getElementById("loader").style.display = "none";
-      document.querySelector(".quiz-container").classList.remove("hidden");
-    }, 1500);
-  });
-</script>
-  
-<div id="update-popup" class="update-popup hidden">
-  <p>🔔 Une nouvelle version est disponible</p>
-  <button id="update-btn">🔄 Mettre à jour</button>
-</div>
+  <script>
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        document.getElementById("loader").style.display = "none";
+        document.querySelector(".quiz-container").classList.remove("hidden");
+        document.querySelector(".app-header").classList.remove("hidden");
+      }, 1500);
+    });
+  </script>
 
 </body>
-
-  <footer>
-  <small id="app-version"></small>
-</footer>
-
-</footer>
 </html>
