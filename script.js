@@ -26,6 +26,7 @@ function startQuiz() {
 function showQuestion() {
   resetTimer();
   const q = questions[index];
+  document.getElementById("domain").textContent = "📚 " + q.domain;
   document.getElementById("question").textContent = q.question;
   document.getElementById("score").textContent = `Score : ${score}`;
 
@@ -156,10 +157,6 @@ function shuffle(arr) {
 }
 
 // PWA
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js");
-}
-
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js").then(registration => {
 
