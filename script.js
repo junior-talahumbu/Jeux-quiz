@@ -217,3 +217,31 @@ fetch("changelog.json")
       });
   });
 
+function saveScore(name, score) {
+  let scores = JSON.parse(localStorage.getItem("scores")) || [];
+  scores.push({ name, score, date: Date.now() });
+  scores.sort((a, b) => b.score - a.score);
+  localStorage.setItem("scores", JSON.stringify(scores.slice(0, 10)));
+}
+
+function showRanking() {
+  const scores = JSON.parse(localStorage.getItem("scores")) || [];
+  document.getElementById("ranking").innerHTML =
+    "<h3>Classement</h3>" +
+    scores.map((s, i) =>
+      `<p>${i + 1}. ${s.name} - ${s.score}</p>`
+    ).join("");
+}
+function setLang(lang) {
+  fetch(`lang/${lang}.json`)
+    .then(res => res.json())
+    .then(data => {
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        el.textContent = data[el.dataset.i18n];
+      });
+      localStorage.setItem("lang", lang);
+    });
+}
+
+// langue par défaut
+setLang(localStorage.getItem("lang") || "fr");
