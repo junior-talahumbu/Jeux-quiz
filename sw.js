@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-cache-v2"; // ⬅️ change la version à chaque MAJ
+const CACHE_NAME = "quiz-cache-v5"; // 🔴 changer à chaque MAJ
 
 const ASSETS = [
   "./",
@@ -9,37 +9,31 @@ const ASSETS = [
   "./manifest.json"
 ];
 
-// INSTALL
 self.addEventListener("install", event => {
-  self.skipWaiting();
+  self.skipWaiting(); // 🔥 prêt immédiatement
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS))
   );
 });
 
-// ACTIVATE → Nettoyage des anciens caches
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys =>
       Promise.all(
-        keys
-          .filter(key => key !== CACHE_NAME)
-          .map(key => caches.delete(key))
+        keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
       )
     )
   );
-  self.clients.claim();
+  self.clients.claim(); // 🔥 prend le contrôle
 });
 
-// FETCH → Network first (meilleur pour les mises à jour)
 self.addEventListener("fetch", event => {
   event.respondWith(
     fetch(event.request)
-      .then(response => {
-        return caches.open(CACHE_NAME).then(cache => {
-          cache.put(event.request, response.clone());
-          return response;
-        });
+      .then(res => {
+        const resClone = res.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(event.request, resClone));
+        return res;
       })
       .catch(() => caches.match(event.request))
   );
