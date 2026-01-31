@@ -105,19 +105,15 @@ function startTimer() {
   timer = setInterval(() => {
     timeLeft--;
     document.getElementById("timer").textContent = `⏱️ ${timeLeft}`;
-   if (timeLeft === 0) {
-  clearInterval(timer);
-  next();
-}, 1000);
+    if (timeLeft === 0) next();
+  }, 1000);
 }
-
-
 
 function resetTimer() { clearInterval(timer); }
 
 function updateProgress() {
   document.getElementById("progress-bar").style.width =
-    (index + 1) / questions.length * 100 + "%";
+    (index / questions.length) * 100 + "%";
 }
 
 function endQuiz() {
@@ -160,6 +156,9 @@ function shuffle(arr) {
 }
 
 // PWA
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js").then(registration => {
