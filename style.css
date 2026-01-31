@@ -323,4 +323,17 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
+.install-btn {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  background: #22c55e;
+  color: #000;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,.4);
+  z-index: 9999;
+}
 
