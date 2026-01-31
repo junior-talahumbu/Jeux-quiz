@@ -16,7 +16,6 @@ body {
   align-items: center;
 }
 
-
 /* LOADER */
 #loader {
   text-align: center;
@@ -304,14 +303,4 @@ body {
   .title {
     font-size: 22px;
   }
-}
-.domain-tag {
-  display: inline-block;
-  margin-bottom: 8px;
-  padding: 4px 10px;
-  background: #e5f9ee;
-  color: #15803d;
-  border-radius: 12px;
-  font-size: 14px;
-  font-weight: 600;
 }
