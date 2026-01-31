@@ -240,5 +240,27 @@ function setLang(lang) {
     });
 }
 
+let deferredPrompt;
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+
+  const installBtn = document.createElement("button");
+  installBtn.innerText = "📲 Installer l'application";
+  installBtn.className = "install-btn";
+
+  document.body.appendChild(installBtn);
+
+  installBtn.addEventListener("click", async () => {
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === "accepted") {
+      installBtn.remove();
+    }
+  });
+});
+
+
 // langue par défaut
 setLang(localStorage.getItem("lang") || "fr");
