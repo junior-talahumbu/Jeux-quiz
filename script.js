@@ -178,3 +178,20 @@ if ("serviceWorker" in navigator) {
 
   });
 }
+
+function showUpdatePopup(registration) {
+  const popup = document.getElementById("update-popup");
+  const btn = document.getElementById("update-btn");
+
+  popup.classList.remove("hidden");
+
+  btn.onclick = () => {
+    if (registration.waiting) {
+      registration.waiting.postMessage({ type: "SKIP_WAITING" });
+    }
+  };
+}
+
+navigator.serviceWorker.addEventListener("controllerchange", () => {
+  window.location.reload();
+});
