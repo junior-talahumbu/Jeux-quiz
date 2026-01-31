@@ -269,286 +269,262 @@
     "domain": "Foot",
     "question": "Quel pays a remporté la Coupe du monde 2014 ?",
     "choices": ["Brésil", "Argentine", "Allemagne", "Espagne"],
-    "answer": 2,
-    "difficulty": "moyenne"
+    "answer": 2
+   
   },
   {
     "domain": "Foot",
     "question": "Quel joueur détient le record de Ballons d’Or ?",
     "choices": ["Cristiano Ronaldo", "Lionel Messi", "Platini", "Ronaldinho"],
-    "answer": 1,
-    "difficulty": "moyenne"
+    "answer": 1
   },
   {
     "domain": "Foot",
     "question": "Quel club a remporté le plus de Ligues des Champions ?",
     "choices": ["AC Milan", "FC Barcelone", "Liverpool", "Real Madrid"],
-    "answer": 3,
-    "difficulty": "moyenne"
+    "answer": 3
   },
   {
     "domain": "Foot",
     "question": "Quel pays africain a été premier à atteindre les quarts de finale d’une Coupe du monde ?",
     "choices": ["Nigeria", "Sénégal", "Cameroun", "Ghana"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
   },
   {
     "domain": "Foot",
     "question": "Quel entraîneur a remporté la Ligue des Champions avec deux clubs différents ?",
     "choices": ["Ancelotti", "Guardiola", "Mourinho", "Klopp"],
-    "answer": 0,
-    "difficulty": "difficile"
+    "answer": 0
   },
 
   {
     "domain": "Biologie",
     "question": "Quelle molécule est porteuse de l’information génétique ?",
     "choices": ["ARN", "Protéine", "ADN", "Lipide"],
-    "answer": 2,
-    "difficulty": "moyenne"
+    "answer": 2
   },
   {
     "domain": "Biologie",
     "question": "Quel organe est responsable de la respiration cellulaire ?",
     "choices": ["Noyau", "Ribosome", "Mitochondrie", "Lysosome"],
-    "answer": 2,
-    "difficulty": "moyenne"
+    "answer": 2
   },
   {
     "domain": "Biologie",
     "question": "Quel système transporte l’oxygène dans le corps ?",
     "choices": ["Digestif", "Nerveux", "Circulatoire", "Lymphatique"],
-    "answer": 2,
-    "difficulty": "moyenne"
+    "answer": 2
   },
   {
     "domain": "Biologie",
     "question": "Quel est le rôle principal des globules blancs ?",
     "choices": ["Transport d’oxygène", "Défense immunitaire", "Coagulation", "Digestion"],
-    "answer": 1,
-    "difficulty": "moyenne"
+    "answer": 1
   },
   {
     "domain": "Biologie",
     "question": "La photosynthèse se déroule principalement dans :",
     "choices": ["Les mitochondries", "Les chloroplastes", "Le noyau", "Les ribosomes"],
-    "answer": 1,
-    "difficulty": "moyenne"
+    "answer": 1
   },
   {
     "domain": "Biologie",
     "question": "Quelle phase de la mitose correspond à la séparation des chromatides ?",
     "choices": ["Prophase", "Métaphase", "Anaphase", "Télophase"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+   
   },
   {
     "domain": "Biologie",
     "question": "Quel type de cellule ne possède pas de noyau ?",
     "choices": ["Eucaryote", "Neurone", "Procaryote", "Cellule végétale"],
-    "answer": 2,
-    "difficulty": "difficile"
-  },
+    "answer": 2
+    },
   {
     "domain": "Biologie",
     "question": "Quel organe est principalement touché par l’hépatite ?",
     "choices": ["Rein", "Cœur", "Foie", "Poumon"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+    
   },
   {
     "domain": "Biologie",
     "question": "Quel mécanisme permet le passage de l’oxygène des alvéoles vers le sang ?",
     "choices": ["Osmose", "Diffusion", "Transport actif", "Endocytose"],
-    "answer": 1,
-    "difficulty": "difficile"
+    "answer": 1
+    
   },
   {
     "domain": "Biologie",
     "question": "Quelle hormone est sécrétée par la thyroïde ?",
     "choices": ["Adrénaline", "Insuline", "Thyroxine", "Cortisol"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+    
   },
 
   {
     "domain": "Chimie",
     "question": "Quel est le symbole chimique de l’or ?",
     "choices": ["Ag", "Au", "Fe", "Cu"],
-    "answer": 1,
-    "difficulty": "moyenne"
+    "answer": 1
   },
   {
     "domain": "Chimie",
     "question": "Quel est le pH d’une solution acide ?",
     "choices": ["=7", ">7", "<7", "=14"],
-    "answer": 2,
-    "difficulty": "moyenne"
-  },
+    "answer": 2
+      },
   {
     "domain": "Chimie",
     "question": "Quelle particule porte une charge négative ?",
     "choices": ["Proton", "Neutron", "Électron", "Ion positif"],
-    "answer": 2,
-    "difficulty": "moyenne"
-  },
+    "answer": 2
+     },
   {
     "domain": "Chimie",
     "question": "L’eau est un composé formé de :",
     "choices": ["H et O", "H₂ et O₂", "H₂O", "HO₂"],
-    "answer": 2,
-    "difficulty": "moyenne"
-  },
+    "answer": 2
+      },
   {
     "domain": "Chimie",
     "question": "Quel type de liaison partage les électrons ?",
     "choices": ["Ionique", "Covalente", "Métallique", "Hydrogène"],
-    "answer": 1,
-    "difficulty": "moyenne"
-  },
+    "answer": 1
+     },
   {
     "domain": "Chimie",
     "question": "Quel est le numéro atomique du carbone ?",
     "choices": ["6", "8", "12", "14"],
-    "answer": 0,
-    "difficulty": "difficile"
+    "answer": 0
   },
   {
     "domain": "Chimie",
     "question": "Une réaction exothermique :",
     "choices": ["Absorbe de l’énergie", "Libère de l’énergie", "Ne change rien", "Refroidit toujours"],
-    "answer": 1,
-    "difficulty": "difficile"
+    "answer": 1
   },
   {
     "domain": "Chimie",
     "question": "Quel gaz est libéré lors d’une réaction acide–métal ?",
     "choices": ["Oxygène", "Azote", "Hydrogène", "CO₂"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
   },
   {
     "domain": "Chimie",
     "question": "Quel est le nom du NaCl ?",
     "choices": ["Soude", "Sel de cuisine", "Chlorure de sodium", "Carbonate de sodium"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
   },
   {
     "domain": "Chimie",
     "question": "Quel facteur accélère une réaction chimique ?",
     "choices": ["Baisse de température", "Catalyseur", "Dilution", "Refroidissement"],
-    "answer": 1,
-    "difficulty": "difficile"
+    "answer": 1
   },
-
   {
     "domain": "Botanique",
     "question": "Quel organe de la plante assure la photosynthèse ?",
     "choices": ["Racine", "Tige", "Feuille", "Fleur"],
-    "answer": 2,
-    "difficulty": "moyenne"
-  },
+    "answer": 2
+   },
   {
     "domain": "Botanique",
     "question": "Quel tissu transporte la sève brute ?",
     "choices": ["Phloème", "Xylème", "Cambium", "Épiderme"],
-    "answer": 1,
-    "difficulty": "moyenne"
+    "answer": 1
   },
   {
     "domain": "Botanique",
     "question": "La germination commence par :",
     "choices": ["La floraison", "La fécondation", "L’imbibition", "La pollinisation"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+
   },
   {
     "domain": "Botanique",
     "question": "Quel pigment donne la couleur verte aux plantes ?",
     "choices": ["Carotène", "Xanthophylle", "Chlorophylle", "Anthocyane"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+   
   },
   {
     "domain": "Botanique",
     "question": "La respiration des plantes a lieu :",
     "choices": ["Seulement le jour", "Seulement la nuit", "Jour et nuit", "Jamais"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+ 
   },
 
   {
     "domain": "Anatomie",
     "question": "Quel os protège le cerveau ?",
     "choices": ["Fémur", "Crâne", "Clavicule", "Vertèbre"],
-    "answer": 1,
-    "difficulty": "moyenne"
+    "answer": 1
+  
   },
   {
     "domain": "Anatomie",
     "question": "Quel muscle permet la flexion du bras ?",
     "choices": ["Triceps", "Deltoïde", "Biceps", "Quadriceps"],
-    "answer": 2,
-    "difficulty": "moyenne"
+    "answer": 2
   },
   {
     "domain": "Anatomie",
     "question": "Combien de vertèbres possède la colonne humaine ?",
     "choices": ["24", "26", "33", "40"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+   
   },
   {
     "domain": "Anatomie",
     "question": "Quel organe est responsable de la détoxification du sang ?",
     "choices": ["Poumon", "Foie", "Cœur", "Rate"],
-    "answer": 1,
-    "difficulty": "difficile"
+    "answer": 1
+    
   },
   {
     "domain": "Anatomie",
     "question": "Quel nerf contrôle principalement le diaphragme ?",
     "choices": ["Vague", "Optique", "Phrenique", "Sciatique"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+ 
   },
 
   {
     "domain": "Zoologie",
     "question": "Quel animal est un mammifère marin ?",
     "choices": ["Requin", "Dauphin", "Thon", "Pieuvre"],
-    "answer": 1,
-    "difficulty": "moyenne"
+    "answer": 1
+  
   },
   {
     "domain": "Zoologie",
     "question": "Quel animal est ovipare ?",
     "choices": ["Chien", "Vache", "Poule", "Dauphin"],
-    "answer": 2,
-    "difficulty": "moyenne"
+    "answer": 2
+  
   },
   {
     "domain": "Zoologie",
     "question": "Quel est le plus grand mammifère terrestre ?",
     "choices": ["Rhinocéros", "Éléphant", "Hippopotame", "Girafe"],
-    "answer": 1,
-    "difficulty": "moyenne"
+    "answer": 1
+  
   },
   {
     "domain": "Zoologie",
     "question": "Quel animal est capable d’écholocalisation ?",
     "choices": ["Chauve-souris", "Aigle", "Serpent", "Crocodile"],
-    "answer": 0,
-    "difficulty": "difficile"
+    "answer": 0
+  
   },
   {
     "domain": "Zoologie",
     "question": "Quel groupe animal possède un exosquelette ?",
     "choices": ["Mammifères", "Oiseaux", "Arthropodes", "Reptiles"],
-    "answer": 2,
-    "difficulty": "difficile"
+    "answer": 2
+
   }
 ]
 
