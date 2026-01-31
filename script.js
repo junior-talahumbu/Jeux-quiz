@@ -26,7 +26,6 @@ function startQuiz() {
 function showQuestion() {
   resetTimer();
   const q = questions[index];
-  document.getElementById("domain").textContent = "📚 " + q.domain;
   document.getElementById("question").textContent = q.question;
   document.getElementById("score").textContent = `Score : ${score}`;
 
