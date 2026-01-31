@@ -1,20 +1,46 @@
-const cacheName = "quiz-cache-v3";
-const assets = [
+const CACHE_NAME = "quiz-cache-v2"; // ⬅️ change la version à chaque MAJ
+
+const ASSETS = [
   "./",
   "./index.html",
   "./style.css",
   "./script.js",
-  "./questions.json"
+  "./questions.json",
+  "./manifest.json"
 ];
 
-self.addEventListener("install", e => {
-  e.waitUntil(
-    caches.open(cacheName).then(cache => cache.addAll(assets))
+// INSTALL
+self.addEventListener("install", event => {
+  self.skipWaiting();
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS))
   );
 });
 
-self.addEventListener("fetch", e => {
-  e.respondWith(
-    caches.match(e.request).then(res => res || fetch(e.request))
+// ACTIVATE → Nettoyage des anciens caches
+self.addEventListener("activate", event => {
+  event.waitUntil(
+    caches.keys().then(keys =>
+      Promise.all(
+        keys
+          .filter(key => key !== CACHE_NAME)
+          .map(key => caches.delete(key))
+      )
+    )
+  );
+  self.clients.claim();
+});
+
+// FETCH → Network first (meilleur pour les mises à jour)
+self.addEventListener("fetch", event => {
+  event.respondWith(
+    fetch(event.request)
+      .then(response => {
+        return caches.open(CACHE_NAME).then(cache => {
+          cache.put(event.request, response.clone());
+          return response;
+        });
+      })
+      .catch(() => caches.match(event.request))
   );
 });
