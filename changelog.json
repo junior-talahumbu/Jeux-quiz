@@ -1,0 +1,11 @@
+{
+  "1.5.0": [
+    "Ajout du classement offline",
+    "Support multi-langue",
+    "Optimisation du cache"
+  ],
+  "1.4.0": [
+    "Popup de mise à jour",
+    "Bouton Mettre à jour"
+  ]
+}
