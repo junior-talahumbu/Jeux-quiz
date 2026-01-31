@@ -264,10 +264,7 @@
     "question": "Si aujourd’hui est lundi, quel jour sera-t-il dans 17 jours ?",
     "choices": ["Mardi", "Mercredi", "Jeudi", "Vendredi"],
     "answer": 2
-  }
-]
-
-[
+  },
   {
     "domain": "Foot",
     "question": "Quel pays a remporté la Coupe du monde 2014 ?",
